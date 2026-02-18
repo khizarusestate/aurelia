@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import { motion as Motion } from "framer-motion";
 import { BRAND, CONTACT, NAVIGATION } from '../config/constants';
-import NavigationList from '../components/ui/NavigationList';
-import NavLink from '../components/ui/NavLink';
+import NavigationList from '../Components/ui/NavigationList';
+import NavLink from '../Components/ui/NavLink';
 import { api } from '../services/api';
 
 export default function Footer() {
