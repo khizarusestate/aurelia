@@ -1,4 +1,4 @@
-const API_BASE_URL = 'https://aurelia-server.vercel.app/api';
+const API_BASE_URL = 'https://vercel-server-ten-mauve.vercel.app/api';
 
 export const api = {
   async sendBookingRequest(bookingData) {
