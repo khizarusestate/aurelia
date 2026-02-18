@@ -1,5 +1,5 @@
 import SectionReveal from "./SectionReveal";
-import NavLink from '../components/ui/NavLink';
+import NavLink from '../Components/ui/NavLink';
 
 export default function Dining() {
   return (
