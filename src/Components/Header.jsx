@@ -1,6 +1,6 @@
 import { motion as Motion } from "framer-motion";
-import BrandLogo from '../components/ui/BrandLogo';
-import NavigationList from '../components/ui/NavigationList';
+import BrandLogo from '../Components/ui/BrandLogo';
+import NavigationList from '../Components/ui/NavigationList';
 import NavLink from '../components/ui/NavLink';
 import { ANIMATIONS } from '../config/constants';
 
