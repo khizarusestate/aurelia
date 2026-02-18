@@ -4,26 +4,8 @@ import SectionReveal from "./SectionReveal";
 import { api } from '../services/api';
 
 export default function Rooms() {
-  const [rooms, setRooms] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
-
-  useEffect(() => {
-    const fetchRooms = async () => {
-      try {
-        setLoading(true);
-        const result = await api.getRooms();
-        setRooms(result.data);
-      } catch (err) {
-        setError('Failed to load rooms');
-        console.error('Error fetching rooms:', err);
-      } finally {
-        setLoading(false);
-      }
-    };
-
-    fetchRooms();
-  }, []);
 
   const amenities = [
     "Rooftop infinity pool and evening lounge",
