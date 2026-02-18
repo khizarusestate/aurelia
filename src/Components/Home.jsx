@@ -1,6 +1,6 @@
 import { motion as Motion } from "framer-motion";
 import { BRAND, ANIMATIONS } from '../config/constants';
-import NavLink from '../components/ui/NavLink';
+import NavLink from '../Components/ui/NavLink';
 
 export default function Home() {
   return (
