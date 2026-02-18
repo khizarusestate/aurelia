@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import SectionReveal from "./SectionReveal";
-import NavLink from '../components/ui/NavLink';
+import NavLink from '../Components/ui/NavLink';
 import { api } from '../services/api';
 
 export default function Contact() {
